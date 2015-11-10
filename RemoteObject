@@ -31,7 +31,7 @@ public class RemoteObject implements IRemoteObject{
 			return "processing not completed";
 		}
 		
-		return "processing completed - FABIO ESTEVE AQUI";
+		return "processing completed;
 	}
 
 }
