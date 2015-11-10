@@ -1,4 +1,4 @@
-package Infra;
+package Infrastructure;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
