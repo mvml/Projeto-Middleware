@@ -18,7 +18,7 @@ public class RemoteObjectServer {
 		RemoteObject remoteObject = new RemoteObject();
 		remoteObject.setWait_time(1000);
 		
-		Registry registry = LocateRegistry.createRegistry(2001);
+		Registry registry = LocateRegistry.getRegistry("localhost",2001);
 		
 		registry.bind("RemoteObject", remoteObject);
 		
